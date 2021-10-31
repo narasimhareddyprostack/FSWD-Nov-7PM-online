@@ -1,0 +1,62 @@
+<h1 style="background-color:red">Hello, GM </h1>  
+
+<h2>
+
+<p style="background-color:red">
+<div>
+
+-- we need to hardcode the style.
+
+-- loosing style reusability.
+--------------------------------------
+Developer - reusability, 
+            readability, 
+            modularity
+			
+We have a drawback in HTML for appliing Style's.
+CSS(Selector) - Mechanism will overcome.
+--- Style reusability  - CSS(Selector)
+--- code reusability  - functions/class
+
+CSS Features
+-------------
+a)Style Reusability 
+b)CSS - Platform Indipendent 
+ (any application will run exactly same as all O.S)
+c)CSS - Portable, browser Compatble.
+
+  Flipkart.com -- AWS ENV --> Azure/GCP  
+  Browser - MS Edge, Mozilla Firefox, Google Crome
+            Mac Safari 
+ www.tcs.com  ---> same of all browser
+
+d)Save lot of time. 
+
+***
+e) global change 
+ 
+f)Good community - 
+
+How many way we can apply the css?
+ 
+
+ 
+Id Selector?
+If you have a unique tag, we can apply id selector.
+
+Note: In Web Development 
+	  1.CSS- class (Attribute
+	  2.Javascript - Id(Attribute)
+	  
+	 <h1 id="abc"  class="xyz">Hello</h1>
+	 
+	 Id selector?
+	 
+	 If your doc has, any unique element
+	 we apply id selector.
+	 
+	 
+	 .abc{}
+	 .xyz{}
+	 
+	 .xyz,.abc{}
