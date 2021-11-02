@@ -13,3 +13,9 @@ number   : integer and float
 string 
 boolean : true ,false 
 undefined
+==========================
+all Relational Operators, Equality Operators and Logical Operators 
+
+---------------------------
+Evaluate the JS Express and return boolean value.
+Boolean(true or false)
