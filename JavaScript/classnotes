@@ -2,3 +2,14 @@ Required Software
 -----------------
 Code Editor - VS Code 
 Node JS  - run JS code 
+
+JS Data Types 
+--------------
+Primitive(6) and non - primitive(1) 
+
+Primitive Data Types 
+----------------------
+number   : integer and float 
+string 
+boolean : true ,false 
+undefined
