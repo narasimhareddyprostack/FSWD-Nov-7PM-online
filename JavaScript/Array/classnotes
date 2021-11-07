@@ -1,0 +1,7 @@
+- group of values as one entity
+- allowed hetrogeneous values/dis similar elements 
+- allowed duplicates 
+- array values are stored based on indexing 
+- indexing and slicing is possible 
+- (-ve ) indexing is not possible 
+- JS Array is Iterable object 
