@@ -1,0 +1,6 @@
+JS Object:
+
+Note: If your accessing object property, which is not exits
+  we will get undefined 
+Note 1:if your accessing object method, which is not exits
+  we will get error

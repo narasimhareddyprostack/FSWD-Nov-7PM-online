@@ -1,0 +1,10 @@
+What is Fat Arrow?
+Another syntax to write function.
+1.shorter code/concise code 
+2.implicit return - your function has only one state 
+  ie return go with implicit return 
+3.this - keyword return {} empty object 
+4.function overriding conflicts resolving 
+
+Note 1: function - keyword returned object context is heavy.
+Note 2:
