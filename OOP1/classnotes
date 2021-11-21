@@ -1,0 +1,11 @@
+what is constructor?
+
+- constructor is special method
+- It will execete automatically at time of object creation 
+- It will execete only once.
+- We cont invoke constructor explictly
+
+- To initilize object values 
+
+this - keyword ref to current object.
+this - we are accessing class member(property/method) - inside 
