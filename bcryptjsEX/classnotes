@@ -1,0 +1,10 @@
+String new node js project 
+> npm init 
+> npm init -y 
+
+generated - package.json 
+install bcrypt js 
+
+npm install 
+npm i bcryptjs
+
