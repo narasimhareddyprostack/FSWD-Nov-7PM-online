@@ -2,9 +2,9 @@ String new node js project
 > npm init 
 > npm init -y 
 
-generated - package.json 
-install bcrypt js 
+It generated - package.json 
 
-npm install 
-npm i bcryptjs
+> install bcrypt js 
+
+>npm install bcryptjs /  npm i bcryptjs
 
