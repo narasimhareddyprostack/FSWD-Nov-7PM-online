@@ -8,14 +8,11 @@ let user = {
 let salt = bcrypt.genSaltSync(10);
 let newPassword = bcrypt.hashSync(user.password, salt);
 let newCC = bcrypt.hashSync(user.credit_card, salt);
-console.log(newPassword);
-console.log(newCC);
 
 let new_User = { ...user, password: newPassword, credit_card: newCC };
 console.log(new_User);
 
 let result = bcrypt.compareSync("123456", new_User.password);
-console.log(result);
 if (result) {
   console.log("Login Successfully");
 } else {
