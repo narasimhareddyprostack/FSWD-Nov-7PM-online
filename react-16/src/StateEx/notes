@@ -1,0 +1,10 @@
+If you want update your component Data?
+
+React State concept?
+
+Step: 1  - keep your class  properties as state object properties
+		   state = { message:"Hello"}
+Step: 2 -  to update state 
+           we have to use - setState()  - from React.Component
+
+Step 3: Invoke as Fat arrow function.
