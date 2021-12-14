@@ -5,7 +5,7 @@ class Navbar extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <Link className="navbar-brand" to="/home">
+          <Link class="navbar-brand" to="/home">
             React Routing
           </Link>
           <button
@@ -22,8 +22,14 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <Link className="nav-link" to="userapi">
-                  Users - API
+                <Link className="nav-link" to="industry">
+                  Industry
+                </Link>
+              </li>
+
+              <li className="nav-item active">
+                <Link className="nav-link" to="services">
+                  Services
                 </Link>
               </li>
             </ul>

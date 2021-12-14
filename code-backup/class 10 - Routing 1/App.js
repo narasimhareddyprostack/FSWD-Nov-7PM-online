@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Industry from "./TCS/Industry";
+import Services from "./TCS/Services";
 
-import User from "./User/User";
 class App extends Component {
   render() {
     return (
@@ -10,7 +11,8 @@ class App extends Component {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/userapi" element={<User />} />
+            <Route path="/industry" element={<Industry />} />
+            <Route path="/services" element={<Services />} />
           </Routes>
         </Router>
       </div>
