@@ -4,7 +4,7 @@ class User extends Component {
   state = {
     users: [],
   };
-  componentDidMount = () => {
+  getDataHanlder = () => {
     Axios.get("https://jsonplaceholder.typicode.com/users")
       .then((response) => {
         // console.log(response.data);
@@ -20,7 +20,7 @@ class User extends Component {
       <div>
         <h1>User Component</h1>
         <pre>{JSON.stringify(this.state)}</pre>
-
+        <button onClick={this.getDataHanlder}> User Data</button>
         <table className="table table-hover">
           <thead>
             <th>Id</th>

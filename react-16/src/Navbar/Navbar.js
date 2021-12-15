@@ -26,6 +26,11 @@ class Navbar extends Component {
                   Users - API
                 </Link>
               </li>
+              <li className="nav-item active">
+                <Link className="nav-link" to="photo">
+                  Photos
+                </Link>
+              </li>
             </ul>
           </div>
         </nav>
