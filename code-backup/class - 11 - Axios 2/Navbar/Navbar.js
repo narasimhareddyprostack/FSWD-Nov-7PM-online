@@ -6,7 +6,7 @@ class Navbar extends Component {
       <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <Link className="navbar-brand" to="/home">
-            Contact App
+            React Routing
           </Link>
           <button
             className="navbar-toggler"
@@ -22,8 +22,13 @@ class Navbar extends Component {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <Link className="nav-link" to="contact">
-                  Contact
+                <Link className="nav-link" to="userapi">
+                  Users - API
+                </Link>
+              </li>
+              <li className="nav-item active">
+                <Link className="nav-link" to="photo">
+                  Photos
                 </Link>
               </li>
             </ul>
