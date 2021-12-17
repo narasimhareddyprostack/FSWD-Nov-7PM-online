@@ -1,11 +1,15 @@
 import React, { Component } from "react";
 
 class ContactList extends Component {
+  getContact = (contact) => {
+    console.log(contact);
+    this.props.selectedContactMethod(contact);
+  };
   render() {
     return (
       <div>
         <h1>Contact List</h1>
-        <pre>{JSON.stringify(this.props)}</pre>
+        {/*   <pre>{JSON.stringify(this.props)}</pre> */}
         <div class="container">
           <div class="row">
             <div class="col">
@@ -20,7 +24,10 @@ class ContactList extends Component {
                 <tbody>
                   {this.props.contacts.map((contact) => {
                     return (
-                      <tr key={contact.login.uuid}>
+                      <tr
+                        key={contact.login.uuid}
+                        onClick={this.getContact.bind(this, contact)}
+                      >
                         <td>{contact.login.uuid.substring(32)}</td>
                         <td>{contact.name.first + " " + contact.name.last}</td>
                         <td>{contact.email}</td>
