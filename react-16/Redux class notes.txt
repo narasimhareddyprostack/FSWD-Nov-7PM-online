@@ -1,0 +1,85 @@
+API Name: https://jsonplaceholder.typicode.com/photos
+
+Method :GET 
+Access Type : Public 
+Fields: Not Required
+
+state = {message:"Hello"}
+
+setState({message:"Good Morning"})
+
+let [variable, function] = useState("default value")
+let [message, setMessage] = useState("Hello")
+let [counter, setCounter] = useState(0)
+let [contacts, setContacts] = useState([])
+let [state,setState] = useState({})
+let [flag, setFlag] = useState(false);
+
+
+1)react View --> dispatch an action
+2)action will invoke reducer 
+3)reducer will update/create new store based on action type.
+4)Once store(multiple State) is updated it will reflect back to view
+
+
+view --->action-->reducer ->store-view
+
+===============================================
+Step 1)install required packages 
+a)redux 
+b)react-redux
+c)redux-devtools-extension
+
+How to install?
+project> npm i redux-devtools-extension redux react-redux
+
+
+Step 2) Install crome browser extension.
+install - Redux DevTools
+
+Redux DevTools for debugging application's state changes.
+
+Step 3)create Functional Component.
+
+
+Step 4) dispatch an redux action?
+
+What is action?
+action is function, that return actionable object
+
+let gmAction = ()=>{
+		return { }
+}
+
+----------------------------
+how to dispatch action?
+
+useDispatch() - hook? in functional component.
+useDispatch() - hook belongs - react-redux package.
+
+Action invokes reducer?
+
+what is reducer?
+
+reducer is pure function. It will take two argument ie 
+state, action.
+
+reducer is going to update or create store based on action type.
+
+
+let messageReducer = (state,action)=>{
+	// update store/state based on action type.
+
+}
+
+
+=========================================
+package
+1)redux - cretaeStore()
+2)react-redux - Provider, useDispatch, useSelector
+
+3)redux-devtools-extension - componseWithDevtools()
+
+  to debug your redux store.
+  
+
