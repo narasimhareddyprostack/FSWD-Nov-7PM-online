@@ -82,4 +82,51 @@ package
 
   to debug your redux store.
   
+  
+  
+  
+  
+What is Redux?
+
+To Implement Redux in React Application what are the requried packages?
+
+How to  create Store?
+
+How to read Redux Store state in React Component?
+
+what is actions ?
+
+what is reducer?
+
+How to provide redux store to react application?
+
+How to dispatch an action?
+- in React functional component, to dispatch redux action 
+we are using useDispatch() hook from 'react-redux' package.
+
+
+
+  
+{
+  message: {
+    message: 'Hello..........'
+  },
+  counter: {
+    counter: 1,
+    heroName: 'Rajini Kanth'
+  }
+}
+
+
+=========================================
+React Component
+Redux action 
+Redux reducer 
+Store.js 
+
+multiple reducer - create rootReducer 
+
+
+  
+  
 
