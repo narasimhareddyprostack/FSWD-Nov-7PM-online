@@ -1,0 +1,8 @@
+let [obj, setObj] = useState({});
+let buttonRef = useRef(null);
+
+
+<button ref={buttonRef} ></button>
+How to get tag ref in react functional component?
+
+with help of useRef hook?
