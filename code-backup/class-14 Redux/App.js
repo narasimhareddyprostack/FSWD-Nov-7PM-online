@@ -5,7 +5,6 @@ import Message from "./Message/Message";
 import { Provider } from "react-redux";
 import { store } from "./redux/store";
 import Counter from "./Counter/Counter";
-import Digital from "./Digital/Digital";
 class App extends Component {
   render() {
     return (
@@ -15,7 +14,6 @@ class App extends Component {
             <Navbar />
             <Routes>
               <Route path="/message" element={<Message />} />
-              <Route path="/digi" element={<Digital />} />
               <Route path="/counter" element={<Counter />} />
             </Routes>
           </Router>

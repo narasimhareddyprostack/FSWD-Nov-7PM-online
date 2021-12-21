@@ -31,12 +31,6 @@ class Navbar extends Component {
                   Coounter Example
                 </Link>
               </li>
-
-              <li className="nav-item active">
-                <Link className="nav-link" to="digi">
-                  Digital
-                </Link>
-              </li>
             </ul>
           </div>
         </nav>
